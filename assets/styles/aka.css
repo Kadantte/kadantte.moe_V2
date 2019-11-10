@@ -1,0 +1,56 @@
+html {
+  scroll-behavior: smooth;
+}
+
+nav {
+  background-color: white;
+}
+header {
+  width: 100vw;
+  height: 640px;
+
+  padding-top: 200px;
+
+  /* background-image: linear-gradient(to left, #ffffff 2%, transparent), url(../images/pexels-photo-2395249.jpeg); */
+
+  background-position: center;
+  background-size: cover;
+}
+footer {
+  margin: 5em 0em 0em !important;
+  padding: 5em 0em !important;
+
+  width: 100vw !important;
+}
+
+article {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.aka.promotion {
+  width: 100vw;
+  height: 120px;
+
+  padding-top: 40px;
+}
+
+span.aka.blackout {
+  color: white;
+  background-color: black;
+}
+span.aka.whitein {
+  color: black;
+  background-color: white;
+}
+
+.aka.heading {
+  padding-top: 25px;
+  padding-bottom: 60px;
+}
+.aka.summary {
+  padding-bottom: 120px;
+}
+.aka.context {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}

@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<!--
+   AkaPage;
+Copyright 2019 Seia-Soto. All rights reserved.
+-->
+<html lang="ko" dir="ltr">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130620056-5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-130620056-5');
+    </script>
+
+    <meta charset="utf-8">
+    <title>Seia-Soto | Chrome Discord Presence</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Seia-Soto">
+    <meta name="description" content="가지마다 아름다움의 가치를, Seia-Soto의 AkaPage.">
+
+    <link rel="shortcut icon" href="/assets/images/ys_avatarsize.jpg" />
+
+    <link rel="stylesheet" type="text/css" href="/ui/semantic.min.css">
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"></script>
+    <script src="/ui/semantic.min.js"></script>
+
+    <link rel="stylesheet" href="/assets/styles/aka.css">
+  </head>
+  <body>
+    <div class="ui right borderless sidebar inverted vertical menu">
+      <div class="header item">
+        — AkaPage
+      </div>
+      <a class="item" href="/#project">
+        <i class="tag icon"></i>
+        Projects
+      </a>
+      <a class="item" href="/#partnership">
+        <i class="tag icon"></i>
+        Partnership
+      </a>
+      <div class="header item">
+        — Social
+      </div>
+      <a class="item" href="https://b2.seia.io">
+        <i class="wordpress icon"></i>
+        Blog
+      </a>
+      <a class="item" href="https://twitter.com/Seia_Soto">
+        <i class="twitter icon"></i>
+        Twitter
+      </a>
+      <a class="item" href="https://discordapp.com/invite/vAEBXWY">
+        <i class="discord icon"></i>
+        Discord
+      </a>
+      <a class="item" href="https://github.com/Seia-Soto">
+        <i class="github icon"></i>
+        GitHub
+      </a>
+      <a class="item" href="mailto:seia@outlook.kr">
+        <i class="envelope icon"></i>
+        Email
+      </a>
+    </div>
+
+    <div class="pusher">
+      <nav>
+        <div class="ui borderless top fixed menu">
+          <div class="ui container">
+            <div class="item" onclick="location.href=''">
+              <img class="ui avatar image" src="/assets/images/ys_avatarsize.jpg">
+              &nbsp; Seia-Soto | Chrome Discord Presence
+            </div>
+            <a class="item" href="/">
+              Main
+            </a>
+
+            <a class="right item" onclick="$('.ui.sidebar').sidebar('setting', 'transition', 'overlay').sidebar('toggle')">
+              <i class="bars icon"></i>
+              Menu
+            </a>
+          </div>
+        </div>
+      </nav>
+      <header style="background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://miro.medium.com/max/4800/1*9yqjjenFSf9xAkS8AmL1EA.png)">
+        <div class="ui container">
+          <h2 class="ui inverted header">
+            <span class="aka whitein">Host</span> what you seeing<br>
+            in <span class="aka whitein">Google Chrome</span><br>
+            <br>
+            — <span class="aka blackout">Chrome Discord Presence</span>
+          </h2>
+
+          <a class="ui secondary button" href="https://github.com/Seia-Soto/chrome-discord-presence#Installation">
+            <i class="github icon"></i>
+            Install from GitHub
+          </a>
+        </div>
+      </header>
+
+      <article class="ui basic container segment">
+        <section class="ui basic segment aka context">
+          <h3 class="ui header">How simple authentication can be done.</h3>
+          <h1 class="ui header">
+            Just <span class="aka blackout">open</span> the Discord,<br>
+            without third party app.
+          </h1>
+          <p>
+            Really there is nothing you need to do.<br>
+            Open Discord and login with your account.
+          </p>
+
+          <a class="ui secondary button" href="https://discordapp.com/app?forAuthentication">
+            <i class="discord icon"></i>
+            Already installed? Open Discord for authentication
+          </a>
+        </section>
+      </article>
+
+      <article class="ui basic container segment" id="installation">
+        <section class="aka heading">
+          <h2 class="ui horizontal divider header">Installation:</h2>
+        </section>
+
+        <p>
+          You need to install via compressed or extracted extension source because this extension is not available on Chrome web store.
+        </p>
+
+        <div class="ui segment">
+          <div class="ui relaxed divided list">
+            <div class="item">
+              <div class="content">
+                <div class="header">1</div>
+                Go to <a href="https://github.com/Seia-Soto/chrome-discord-presence/releases">releases tab</a> and download latest release.
+              </div>
+            </div>
+            <div class="item">
+              <div class="content">
+                <div class="header">2</div>
+                Extract the zip archive and go to <a href="chrome://extensions">Chrome extensions management page(chrome://extensions)</a>.
+              </div>
+            </div>
+            <div class="item">
+              <div class="content">
+                <div class="header">3</div>
+                Enable developer mode at right top of page and click 'Load unpacked extension...' button.
+              </div>
+            </div>
+            <div class="item">
+              <div class="content">
+                <div class="header">4</div>
+                Locate folder src inside of extracted zip archive and click 'Select folder(directory)' to finalize installation.
+              </div>
+            </div>
+            <div class="item">
+              <div class="content">
+                <div class="header">5</div>
+                You can see Discord icon at right top from under the Chrome tabs.
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="ui basic container segment" id="usage">
+        <section class="aka heading">
+          <h2 class="ui horizontal divider header">Usage:</h2>
+        </section>
+
+        <p>
+          After you installed this extension, you need to open Discord via web browser to crawl token of your account. Token will automatically saved into local storage assigned to extension(This will not synced by Chrome).
+        </p>
+
+        <div class="ui segment">
+          <div class="ui relaxed divided list">
+            <div class="item">
+              <div class="content">
+                <div class="header">1</div>
+                Click Discord icon at right top from under the Chrome tabs.
+              </div>
+            </div>
+            <div class="item">
+              <div class="content">
+                <div class="header">2</div>
+                Tab 'Enable Rich Presence' button.<br>
+                <br>
+                <span class="aka whitein">
+                  *If you're on first-run of extension or your token was expired, you can see prompt to open Discord via web browser. Then just open Discord via web browser(not main page) and click retry button inside of prompt. Extension will detect your token from urls below: https://discordapp.com/app, https://discordapp.com/activity, https://discordapp.com/channels/@me
+                </span>
+              </div>
+            </div>
+            <div class="item">
+              <div class="content">
+                <div class="header">3</div>
+                Finally, you can see you're playing 'Chrome - {ACTIVE_TAB_NAME}' on Discord.
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="ui basic container segment" id="notice">
+        <section class="aka heading">
+          <h2 class="ui horizontal divider header">Notice:</h2>
+        </section>
+
+        <div class="ui segment">
+          <div class="ui relaxed divided list">
+            <div class="item">
+              <div class="content">
+                <div class="header">You need to becareful at managing your token.</div>
+                I don't say Chrome will save your token 100% safety. However, you can delete all data by using 'Delete' button from Chrome extensions management page(chrome://extensions).
+              </div>
+            </div>
+            <div class="item">
+              <div class="content">
+                <div class="header">Check that you're using this extension downloaded and installed from trustful source.</div>
+                Your security of account is important and make sure you're using extension downloaded from GitHub(here). If you use this extension downloaded and installed from other website or source, it can cause leak of token.
+              </div>
+            </div>
+            <div class="item">
+              <div class="content">
+                <div class="header">Currently, preparing webpage of this extension.</div>
+                Please wait until this work done.
+              </div>
+            </div>
+            <div class="item">
+              <div class="content">
+                <div class="header">You can request support of this application(extension) via any contactable form.</div>
+                Your account is important to me and there is no warranty. However I'll help you if you have any questions. You can use issues tab or links in extension.
+              </div>
+            </div>
+            <div class="item">
+              <div class="content">
+                <div class="header">Make sure that you are using latest version of extension.</div>
+                For your security as I said above.
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="ui basic container segment" id="privacy-policy">
+        <h2 class="ui horizontal divider header">Privacy Policy:</h2>
+
+        <section class="ui basic segment aka context">
+          <h3 class="ui header">Processing Discord authentication and your account data</h3>
+          <div class="ui ordered list">
+            <div class="item">
+              Application as Extension stores your access-token for authentication of Discord API.<br>
+              However, it won't store your access-token outside of your local web-browser storage.
+            </div>
+            <div class="item">
+              Google Chrome won't sync your access-token to other devices and browsers. (Using storage.local API)
+            </div>
+            <div class="item">
+              To delete your authentication information from device(web-browser), go to extension management page of Chrome and remove extension.
+            </div>
+          </div>
+        </section>
+        <section class="ui basic segment aka context">
+          <h3 class="ui header">Gethering active Chrome tab via Chrome API</h3>
+          <div class="ui ordered list">
+            <div class="item">
+              Application as Extension accesses and stores it as cache(expired and refreshed every 3 seconds) as variable in programming-language your web-browsing data(title of tab) to serve service.
+            </div>
+          </div>
+        </section>
+      </article>
+
+      <footer class="ui inverted vertical footer segment">
+        <div class="ui center aligned container">
+          <div class="ui stackable inverted divided grid">
+            <div class="four wide column">
+              <h4 class="ui inverted header">Social</h4>
+              <div class="ui inverted link list">
+                <a class="item" href="https://twitter.com/Seia_Soto">
+                  <i class="twitter icon"></i>
+                  Twitter
+                </a>
+                <a class="item" href="https://github.com/Seia-Soto">
+                  <i class="github icon"></i>
+                  GitHub
+                </a>
+                <a class="item" href="https://discordapp.com/invite/vAEBXWY">
+                  <i class="discord icon"></i>
+                  Discordapp
+                </a>
+                <a class="item" href="mailto:seia@outlook.kr">
+                  <i class="mail icon"></i>
+                  Mail
+                </a>
+              </div>
+            </div>
+            <div class="four wide column">
+              <h4 class="ui inverted header">Network</h4>
+              <div class="ui inverted link list">
+                <a class="item" href="https://b2.seia.io">
+                  <i class="wordpress icon"></i>
+                  Blog
+                </a>
+              </div>
+            </div>
+            <div class="eight wide column">
+              <h4 class="ui inverted header">Seia Soto</h4>
+              <p>
+                Seia(せいあそと{セイアソト}) is student who is developing with small base as well.<br>
+                Known as learner, writer, translator, developer and illustrator.
+              </p>
+            </div>
+          </div>
+          <div class="ui inverted section divider"></div>
+          <img class="ui centered mini image" src="/assets/images/ys_avatarsize.jpg" />
+          <div class="ui horizontal inverted small divided link list">
+            <a class="item" href="https://github.com/Seia-Soto/AkaPage">
+              Copyright 2019 Seia-Soto. All rights reserved.
+            </a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="/assets/scripts/aka.js" type="text/javascript" charset="utf-8"></script>
+  </body>
+</html>
